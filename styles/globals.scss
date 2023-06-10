@@ -137,6 +137,13 @@ a {
 
 .custom-arrow{
   background: rgba(255, 32, 125, 0.712);
+  position: absolute;
+}
+.arrow-right{
+  right: 0;
+}
+.arrow-left{
+  left: 0;
 }
 img{
   user-select: none;
