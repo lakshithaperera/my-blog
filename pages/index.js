@@ -1,7 +1,6 @@
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
-import Footer from '../components/Footer';
 
 export default function Home({ posts }) {
   return (
@@ -20,7 +19,6 @@ export default function Home({ posts }) {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

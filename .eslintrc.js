@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
   ],
+  
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -79,4 +80,5 @@ module.exports = {
       },
     ],
   },
+  
 };
