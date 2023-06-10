@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oregano:ital@1&display=swap');
 
 html,
 body {
@@ -28,7 +28,9 @@ body {
     background-size: cover;
   }
 }
-
+.logo-text{
+  font-family: 'Oregano', cursive;
+}
 .text-shadow{
   text-shadow: 0px 2px 0px rgb(0 0 0 / 30%);
 }
@@ -66,9 +68,6 @@ a {
 }
 
 .post-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: rgba(0, 0, 0, 0.2);
   P{
     color: #fff;
@@ -131,11 +130,14 @@ a {
     
   }
   .feature-post-bg{
-     background: rgba(90, 0, 207, 0.25);
+     background: rgba(0, 0, 0, 0.25);
   }
 
 }
 
 .custom-arrow{
   background: rgba(255, 32, 125, 0.712);
+}
+img{
+  user-select: none;
 }
