@@ -10,7 +10,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> */}
+        <title>Discount Delights: Your Ultimate Destination for Exclusive Affiliate Sales and Irresistible Deals!</title>
+          <meta property="og:title" content="Discount Delights: Your Ultimate Destination for Exclusive Affiliate Sales and Irresistible Deals!" key="title" />
+          <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> 
         </Head>
         <body>
           <Main />
