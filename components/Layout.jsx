@@ -9,10 +9,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 const Layout = ({ children }) => (
   <>
-    <html lang='en'>
+  
       <Header />
-      <body className={inter.className}>{children}</body>
-    </html>
+      {children}
+
   </>
 );
 

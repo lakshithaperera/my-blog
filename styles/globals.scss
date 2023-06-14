@@ -19,6 +19,7 @@ body {
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05)),
    url('../public/bg-8.jpg');
+
     position: fixed;
     background-position: center;
     left: 0;
@@ -77,7 +78,7 @@ a {
     color: #fff;
   }
   h1{
-    color: rgb(224, 188, 245);
+    color: rgb(201, 195, 253);
     &:hover{
       color: #ffffff;
     }
@@ -87,7 +88,7 @@ a {
 .post-categories{
   background: rgba(0, 0, 0, 0.2);
   h3{
-    color: rgb(224, 188, 245);
+    color: rgb(201, 195, 253);
   }
   span{
     color: #fff;
@@ -97,14 +98,14 @@ a {
 .post-widget{
   background: rgba(0, 0, 0, 0.2);
   h3{
-    color: rgb(224, 188, 245);
+    color: rgb(201, 195, 253);
   }
   p{
     color: #fff;
     
   }
   a{
-    color: rgb(224, 188, 245);
+    color: rgb(201, 195, 253);
   }
 }
 
@@ -114,7 +115,7 @@ a {
   align-items: center;
   justify-content: center;
   h3{
-    color: rgb(224, 188, 245);
+    color: rgb(201, 195, 253);
   }
 }
 
@@ -136,8 +137,12 @@ a {
 }
 
 .custom-arrow{
-  background: rgba(255, 32, 125, 0.712);
   position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 .arrow-right{
   right: 0;
