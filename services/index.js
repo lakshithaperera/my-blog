@@ -15,6 +15,7 @@ export const getPosts = async () => {
               id
               photo {
                 url  
+                id
               }
             }
             createdAt
@@ -23,6 +24,7 @@ export const getPosts = async () => {
             excerpt
             featuredImage {
               url
+              id
             }
             categories {
               name
@@ -62,12 +64,15 @@ export const getPostDetails = async (slug) => {
         excerpt
         featuredImage {
           url
+          id
         }
         author{
           name
           bio
           photo {
             url
+            id
+
           }
         }
         createdAt
@@ -98,6 +103,7 @@ export const getSimilarPosts = async (categories, slug) => {
         title
         featuredImage {
           url
+          id
         }
         createdAt
         slug
@@ -120,6 +126,7 @@ export const getAdjacentPosts = async (createdAt, slug) => {
         title
         featuredImage {
           url
+          id
         }
         createdAt
         slug
@@ -132,6 +139,7 @@ export const getAdjacentPosts = async (createdAt, slug) => {
         title
         featuredImage {
           url
+          id
         }
         createdAt
         slug
@@ -157,6 +165,7 @@ export const getCategoryPost = async (slug) => {
               id
               photo {
                 url
+                id
               }
             }
             createdAt
@@ -165,6 +174,7 @@ export const getCategoryPost = async (slug) => {
             excerpt
             featuredImage {
               url
+              id
             }
             categories {
               name
@@ -244,6 +254,7 @@ export const getRecentPosts = async () => {
         title
         featuredImage {
           url
+          id
         }
         createdAt
         slug

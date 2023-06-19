@@ -38,7 +38,7 @@ const PostCard = ({ post }) => (
         <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">{post.author.name}</p>
       </div>
       <div className="font-medium text-gray-700">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline mr-2 text-pink-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
         <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
@@ -49,7 +49,7 @@ const PostCard = ({ post }) => (
     </p>
     <div className="text-center post-btn">
       <Link href={`/post/${post.slug}`}>
-        <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-blue-600 text-sm font-semibold rounded-full text-white px-5 py-3 cursor-pointer">Continue Reading</span>
+        <span className="transition duration-400 ease transform  inline-block  text-sm font-semibold rounded-full text-gray-600 px-5 py-3 cursor-pointer post-card-btn">Read More</span>
       </Link>
     </div>
   </div>

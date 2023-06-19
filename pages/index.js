@@ -5,7 +5,8 @@ import Footer from '../components/Footer';
 
 export default function Home({ posts }) {
   return (
-    <div className="container mx-auto px-5 md:px-10 mb-8">
+    <>
+     <div className="container mx-auto px-5 md:px-10 mb-8">
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-9  col-span-1 grid grid-cols-1 md:grid-cols-2  gap-8">
@@ -20,8 +21,10 @@ export default function Home({ posts }) {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
+    <Footer />
+    </>
+   
   );
 }
 
