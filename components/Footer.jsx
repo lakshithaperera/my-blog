@@ -36,7 +36,7 @@ const Footer = () => {
            
           </div>
           <div className="right">
-            <h3 className='text-lg'>Subscribe Us</h3>
+            <h3 className='text-lg'>Get an early update</h3>
             <div className="input-area">
               <input type="email" placeholder='Enter Your Email'/>
               <button>subscribe</button>
@@ -49,12 +49,15 @@ const Footer = () => {
               <a href="/"><FaTiktok className='icon' /></a>
               <a href="/"><BsPinterest className='icon'/></a>
               </div>
+              <Link href="/">
+              <img className='logo footer-logo' src="./logo.png" alt="" />
+              </Link>
+              
             </div>
           </div>
       </div>
       <div className="footer-bottom">
-         <p>2023 copyright. all rights reserved</p>
-         <h2 className='logo-text text-2xl'>SaleMaster</h2>
+         <p>2023 &copy; all rights reserved | design and developed by Lakshitha Perera</p>
       </div>
     </div>
     

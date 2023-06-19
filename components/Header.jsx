@@ -18,10 +18,10 @@ const Header = () => {
 
   return (
     <div className="container  mx-auto px-5 md:px-10 mb-8">
-      <div className="border-b relative w-full inline-block border-blue-400 py-8">
+      <div className="border-b relative w-full inline-block border-blue-400 py-5">
         <div className="md:float-left block">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white logo-text">SaleMaster</span>
+            <img className='logo' src="./logo.png" alt="" />
           </Link>
         </div>
         <div className="hidden md:float-left md:contents nav-bar">
