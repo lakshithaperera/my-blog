@@ -17,14 +17,14 @@ const PostCard = ({ post }) => (
         src={post.featuredImage.url}
       />
     </div> */}
-    <div className="relative overflow-hidden shadow-md pb-80 mb-5">
+    <div className="relative overflow-hidden shadow-md pb-80 mb-4">
       <img src={post.featuredImage.url} alt={post.title} className="object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
     </div>
 
-    <h1 className="transition duration-700 text-center mb-5 cursor-pointer hover:text-pink-600 text-2xl font-semibold">
+    <h1 className="transition duration-700 text-center mb-4 cursor-pointer hover:text-pink-600 text-xl font-semibold">
       <Link href={`/post/${post.slug}`}>{post.title}</Link>
     </h1>
-    <div className="block lg:flex text-center items-center justify-center mb-5 w-full">
+    <div className="block lg:flex text-center items-center justify-center mb-4 w-full">
       <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
         <Image
           unoptimized
@@ -44,7 +44,7 @@ const PostCard = ({ post }) => (
         <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
       </div>
     </div>
-    <p className="text-center text-md text-gray-700 font-normal px-4 lg:px-5 mb-5">
+    <p className="text-center text-md text-gray-700 font-normal px-4 lg:px-5 mb-20">
       {post.excerpt}
     </p>
     <div className="text-center post-btn">
