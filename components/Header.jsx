@@ -51,7 +51,7 @@ const Header = () => {
             <RiMenuFoldFill className='menu-icn'/>
            </div>
              <div className="icons">
-              <a href="/"><BsFacebook className='icon' /></a>
+              <a href="https://www.facebook.com/TechItems.online?mibextid=ZbWKwL" target="_blank" rel='help'><BsFacebook className='icon' /></a>
               <a href="/"><AiFillInstagram className='icon'/></a>
               <a href="/"><FaTiktok className='icon' /></a>
               <a href="/"><BsPinterest className='icon'/></a>
