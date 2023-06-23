@@ -33,7 +33,7 @@ const Header = () => {
       <div className="border-b relative w-full inline-block border-blue-400 py-5">
         <div className="md:float-left block">
           <Link href="/">
-            <img className='logo' src="./logo.png" alt="TechItems" />
+            <img className='logo' src="logo.png" alt="TechItems" />
           </Link>
         </div>
         <div className="hidden md:float-left md:contents nav-bar">
