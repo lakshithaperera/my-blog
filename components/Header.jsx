@@ -5,6 +5,9 @@ import {FaTiktok} from "react-icons/fa"
 import {BsPinterest} from "react-icons/bs"
 import {RiMenuFoldFill} from "react-icons/ri"
 import {IoMdCloseCircle} from "react-icons/io"
+import Image from 'next/image';
+import LOGO from "../public/logo.svg"
+
 
 
 import Link from 'next/link';
@@ -34,7 +37,12 @@ const Header = () => {
       <div className="border-b relative w-full inline-block border-blue-400 py-5">
         <div className="md:float-left block">
           <Link href="/">
-            <img className='logo' src="./logo.svg" alt="TechItems" />
+            <Image
+          unoptimized
+          alt={"techItems"}
+          className="logo"
+          src={LOGO}
+        />
           </Link>
         </div>
         <div className="hidden md:float-left md:contents nav-bar">

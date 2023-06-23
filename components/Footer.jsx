@@ -4,8 +4,8 @@ import {BsFacebook} from "react-icons/bs"
 import {AiFillInstagram} from "react-icons/ai"
 import {FaTiktok} from "react-icons/fa"
 import {BsPinterest} from "react-icons/bs"
-
-
+import LOGO_F from "../public/logo.svg"
+import Image from 'next/image';
 import { getCategories } from '../services';
 
 
@@ -50,7 +50,12 @@ const Footer = () => {
               <a href="/"><BsPinterest className='icon'/></a>
               </div>
               <Link href="/">
-              <img className='logo footer-logo' src="logo.svg" alt="TechItems" />
+              <Image
+          unoptimized
+          alt={"techItems"}
+          className="logo footer-logo"
+          src={LOGO_F}
+        />
               </Link>
               
             </div>
