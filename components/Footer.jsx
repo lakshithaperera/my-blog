@@ -50,7 +50,7 @@ const Footer = () => {
               <a href="/"><BsPinterest className='icon'/></a>
               </div>
               <Link href="/">
-              <img className='logo footer-logo' src="logo.png" alt="TechItems" />
+              <img className='logo footer-logo' src="./logo.png" alt="TechItems" />
               </Link>
               
             </div>
