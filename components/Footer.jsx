@@ -24,7 +24,7 @@ const Footer = () => {
     <div className="wrapper container mx-auto px-5 md:px-10 mb-8">
     <div className="footer-top">
           <div className="left">
-            <h3 className='text-lg'>Discover best products</h3>
+            <h3 className='text-lg'>Discover by Categories</h3>
       {categories.map((category, index) => (
     
           <Link key={index} href={`/category/${category.slug}`}>
