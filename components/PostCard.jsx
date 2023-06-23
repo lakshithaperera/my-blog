@@ -29,13 +29,13 @@ const PostCard = ({ post }) => (
         <Image
           unoptimized
           loader={grpahCMSImageLoader}
-          alt={post.author.name}
+          alt={"tech items"}
           height={30}
           width={30}
           className="align-middle rounded-full"
           src={post.author.photo.url}
         />
-        <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">{post.author.name}</p>
+        <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">Admin</p>
       </div>
       <div className="font-medium text-gray-700">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

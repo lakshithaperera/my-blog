@@ -77,14 +77,14 @@ const PostDetail = ({ post }) => {
           <div className="flex items-center mb-8 w-full">
             <div className="hidden md:flex items-center justify-center lg:mb-0 lg:w-auto mr-8 items-center">
               <img
-                alt={post.author.name}
+                alt={"tech items"}
                 height={30}
                 width={30}
                 className="align-middle rounded-full"
                 src={post.author.photo.url}
               />
               <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
-                {post.author.name}
+                Admin
               </p>
             </div>
             <div className="font-medium text-gray-700">

@@ -9,15 +9,15 @@ const Author = ({ author }) => (
       <Image
         unoptimized
         loader={grpahCMSImageLoader}
-        alt={author.name}
+        alt={"Lakshitha"}
         height={100}
         width={100}
         className="align-middle rounded-full"
         src={author.photo.url}
       />
     </div>
-    <h3 className="text-white mt-4 mb-4 text-xl font-bold">{author.name}</h3>
-    <p className="text-white text-ls">{author.bio}</p>
+    <h3 className="text-white mt-4 mb-4 text-xl font-bold">ADMIN</h3>
+    <p className="text-white text-ls">Discover the latest trends and in-depth insights on tech items and gadgets at TechItems. Our informative blog articles cover a wide range of topics, from reviews of the newest tech releases to expert guides on optimizing your tech devices. Stay updated and informed with TechItems, your go-to resource for all things tech</p>
   </div>
 );
 

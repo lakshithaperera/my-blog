@@ -10,8 +10,6 @@ export const getPosts = async () => {
           cursor
           node {
             author {
-              bio
-              name
               photo {
                 url  
               }
@@ -63,8 +61,6 @@ export const getPostDetails = async (slug) => {
           url
         }
         author{
-          name
-          bio
           photo {
             url
           }
@@ -151,8 +147,6 @@ export const getCategoryPost = async (slug) => {
           cursor
           node {
             author {
-              bio
-              name
               photo {
                 url
               }
@@ -184,7 +178,6 @@ export const getFeaturedPosts = async () => {
     query GetCategoryPost() {
       posts(where: {featuredPost: true}) {
         author {
-          name
           photo {
             url
           }
