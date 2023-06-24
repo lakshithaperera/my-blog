@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         <div className="lg:col-span-9  col-span-1 grid grid-cols-1 md:grid-cols-2  gap-8">
           {posts.map((post, index) => (
             <PostCard key={index} post={post.node} />
-          )).slice(-15)}
+          ))}
         </div>
         
         <div className="lg:col-span-3  col-span-1">
